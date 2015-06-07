@@ -10,6 +10,7 @@ typedef struct node {
 char *get_line(FILE *fd);
 char *trim(char *line);
 node_t *parse_symbols(node_t *list);
+int find_char(char *array, char c);
 
 /* List functions */
 void    push_first(node_t **head, void *new_value);
